@@ -3,20 +3,39 @@
 }
 
 .text-green {
-  color: #336C08 !important;
+  color: #045314 !important;
 }
 
 .bg-primary {
   background-color: #F1F2F1 !important;
 }
 .bg-secondary {
-  background-color: #336C08 !important;
+  background-color: #045314 !important;
 }
 
 .masthead .masthead-avatar {
   width: 45rem;
 }
 
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding-top: 25px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.copyright {
+  background-color: #03310C;
+}
 
 /*NAVIGATION*/
 .nav-tabs .nav-link.active,
@@ -58,6 +77,7 @@
   background-color: #336C08;
   border-color: #336C08;
 }
+
 
 .btn-outline-light:focus, .btn-outline-light.focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
