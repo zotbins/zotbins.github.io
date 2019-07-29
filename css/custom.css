@@ -56,6 +56,14 @@
   width: 40%;
 }
 
+.headshot{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  padding-top: 30px;
+}
+
 /*NAVIGATION*/
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
