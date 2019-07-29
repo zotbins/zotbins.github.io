@@ -1,3 +1,23 @@
+/*TEAM GRID*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 40px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/*TEXT*/
 .text-secondary{
 	background-color: #878787 !important;
 }
@@ -6,21 +26,29 @@
   color: #045314 !important;
 }
 
+.lead {
+  font-size: 1.25rem;
+  margin: auto;
+  font-weight: 300;
+  padding-top: 25px;
+}
+
+/*COLORS*/
 .bg-primary {
   background-color: #F1F2F1 !important;
 }
+
 .bg-secondary {
   background-color: #045314 !important;
 }
 
-.masthead .masthead-avatar {
-  width: 45rem;
+.copyright {
+  background-color: #03310C;
 }
 
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
-  padding-top: 25px;
+/*IMAGES*/
+.masthead .masthead-avatar {
+  width: 45rem;
 }
 
 .img-fluid {
@@ -31,10 +59,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-}
-
-.copyright {
-  background-color: #03310C;
 }
 
 /*NAVIGATION*/
@@ -58,40 +82,10 @@
 }
 
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #868684;
+    color: #045314;
     background: #FEFDB0;
   }
    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #868684;
+    color: #045314;
     background: #FEFDB0;
   }
-
-/* BUTTON */
- .btn-outline-light {
-  color: #fff;
-  border-color: #fff;
-}
-
-.btn-outline-light:hover {
-  color: #fff;
-  background-color: #336C08;
-  border-color: #336C08;
-}
-
-
-.btn-outline-light:focus, .btn-outline-light.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
-}
-
-.btn-outline-light.disabled, .btn-outline-light:disabled {
-  color: #f8f9fa;
-  background-color: transparent;
-}
-
-.btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
-.show > .btn-outline-light.dropdown-toggle {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
