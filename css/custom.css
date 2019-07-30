@@ -22,6 +22,10 @@
   padding-bottom: 55px;
 }
 
+.center {
+  margin: auto;
+}
+
 .page-section .page-section-heading {
   font-size: 2.75rem;
   line-height: 2rem;
