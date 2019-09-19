@@ -1,11 +1,11 @@
 
 /*TEXT*/
 .text-secondary{
-	background-color: #878787 !important;
+	background-color: #262624 !important;
 }
 
 .text-green {
-  color: #045314 !important;
+  color: #1f5236 !important;
 }
 
 .lead {
@@ -41,11 +41,11 @@
 }
 
 .bg-secondary {
-  background-color: #045314 !important;
+  background-color: #03310C !important;
 }
 
 .copyright {
-  background-color: #03310C;
+  background-color: #96751a;
 }
 
 /*IMAGES*/
@@ -74,7 +74,7 @@
 /*NAVIGATION*/
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #1f5236;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -84,18 +84,18 @@
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #FEFDB0;
+  color: #c2b64e;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #FEFDB0;
+  color: #1f5236;
 }
 
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #045314;
-    background: #FEFDB0;
+    color: #1f5236;
+    background: #c2b64e;
   }
    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #045314;
-    background: #FEFDB0;
+    color: #1f5236;
+    background: #c2b64e;
   }
