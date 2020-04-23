@@ -87,6 +87,14 @@
   width: 40%;
 }
 
+.poster{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  width: 50rem;
+  padding-top: 30px;
+}
+
 .headshot{
   display: block;
   margin-left: auto;
