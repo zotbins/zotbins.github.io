@@ -14,10 +14,16 @@
   <link rel="shortcut icon" type="image/png" href="https://zotbins.github.io/favicon.png"/>
 
   <!-- Custom fonts for this theme -->
+
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet"/>
+  <!-- tabs/pills -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
@@ -30,7 +36,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-darkgreen fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">ZotBins</a>
+      <a class="navbar-brand js-scroll-trigger" href="index.html">ZotBins</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-white text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -40,438 +46,187 @@
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
           </li>
-		  <li class="nav-item mx-0 mx-lg-1">
+		  <!-- <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#apply">Apply Now!</a>
-          </li>
+          </li> -->
 		  <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#team">Team</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="team.html">Team</a>
           </li>
-		<!--   <li class="nav-item mx-0 mx-lg-1">
+		  <!-- <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#gallery">Gallery</a>
           </li> -->
-          <li class="nav-item mx-0 mx-lg-1">
+        <!--   <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#updates">Updates</a>
           </li>
       <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#partners">Partners</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead bg-white text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
+  <header class="masthead bg-white text-white text-center" id="about">
+    <div class="container d-flex align-items-center flex-column" id="about">
 
       <!-- Masthead Avatar Image -->
-      <a href="http://tippersweb.ics.uci.edu/tportal/index.html#apps"><img class="masthead-avatar mb-5" src="img/zotbins-logo.png" alt=""></a>
-
+      <a><img class="masthead-avatar mb-5" src="img/zotbins_logo.png"alt=""></a>
 
     </div>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet"/>
+
+      <a href="https://github.com/zotbins"><i class="fa fa-github fa-3x" style="padding-right:15px;"></i></a>
+      <a href= "mailto: zotbinsuci@gmail.com"><i class="fa fa-envelope fa-3x" style="padding-right:15px;"></i></a>
+      <a href= "https://www.instagram.com/zotbins/"><span class="fa fa-instagram fa-3x" style="padding-right:15px;"></span></a>
+      <a href= "https://www.youtube.com/channel/UC0b3gQI-uJxT0_gnSBwXmNA"><i class="fa fa-youtube-play fa-3x" style="padding-right:15px;"></i></a>
+
   </header>
 
 
-
   <!-- About Section -->
-  <section class="page-section bg-lightgray mb-0" id="about">
+  <section class="page-section bg-lightgray" id="about">
     <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
 
       <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-green">About</h2>
+      <h2 class="page-section-heading text-center text-black" style="margin-left: -50px;">What is ZotBins?</h2><br><br>
 
       <!-- About Section Content -->
       <body>
-        <a href="img/zotbins_poster.pdf">
-          <img class="poster" src="img/zotbins_poster.jpg" width="500">
-        </a>
+        <p style="color:black; font-size: 17px; margin-left: -100px; margin-right: -100px;">
+          We are an independent group of undergraduate researchers, called the ZerO Waste Anteaters (ZOWA),
+          who are passionate about technology-based zero waste management.
+          We are recruiting volunteers who want to work on our zero waste project called ZotBins and
+          make a difference for the environment. ZotBins is a smart waste bin system that collects data to
+          help make waste management more efficient and to promote zero waste. </p>
       </body>
+      </div>
+    <div class="col-lg-8">
+      <div class="right-half-3">
+      <h2 class="page-section-heading text-center text-black" style="margin-right: -100px;">Subgroups</h2>
+  <br><ul class="nav nav-tabs" style="margin-right: -150px;">
+    <li class="active"><a style="color:darkgreen;" data-toggle="tab" href="#home">Web and Mobile </a></li>
+    <li><a  style="color:darkgreen;" data-toggle="tab" href="#menu1">Waste Recognition</a></li>
+    <li><a style="color:darkgreen;" data-toggle="tab" href="#menu2">Embedded System</a></li>
+    <li><a style="color:darkgreen;" data-toggle="tab" href="#menu3">Hardware and Electrical</a></li>
+
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <br><br> <h4> <i class="fa fa-desktop" fa-lg></i> Web and Mobile <i class="fa fa-desktop" fa-lg></i></h4><br>
+      <p style="color:black; font-size: 17px;">Our web and mobile engineers are dedicated to ensuring ZotBins is accessible to our end users.
+        This team is responsible for building the ZotBins web and mobile app: the web app provides functionality
+        to help facilities management in cultivating a sustainable campus,
+        while the mobile app seeks to engage users in more environmentally-conscious practices.
+        Members of this group are comfortable working in the front and back ends, and have experience with UI/UX design.
+        Common tasks include designing aesthetically-pleasing user interfaces, web development, and app development (Android and iOS).</p>
     </div>
+    <div id="menu1" class="tab-pane fade">
+      <br><br><h4><i class="fa fa-trash" fa-lg></i> Waste Recognition <i class="fa fa-trash" fa-lg></i></h4><br>
+      <p style="color:black; font-size: 17px;">The waste recognition team is focused on researching different opportunities
+        in computationally recognizing waste. Automatic waste detection has various benefits such as giving proper waste disposal
+        instructions to students. We are currently focused on two main projects: classifying waste by image through deep learning methods
+        and identifying waste products given their barcode number. This subgroup is the most recently formed team, so we are looking for
+        motivated individuals who are willing to build from scratch and become future leaders.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <br><br><h4><i class="fa fa-database" fa-lg></i> Embedded System <i class="fa fa-database" fa-lg></i></h4><br>
+      <p style="color:black; font-size: 17px;">	The embedded systems team enables the Smart Bin’s sensors and microcontrollers to work
+        together in order to reliably collect, manage, and transfer data. Members of this group generally work on writing software
+        that can handle the flow of data robustly, safely, and cleanly. Members of this group are comfortable with general IoT concepts,
+        so are also comfortable working with making changes to the Smart Bin’s digital signage. Common tasks include developing and debugging
+        software targeted for a microcontroller, writing code that sends data via API calls, and writing API endpoints.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <br><br><h4><i class="fa fa-wrench" fa-lg></i> Hardware and Electrical <i class="fa fa-wrench" fa-lg></i></h4><br>
+      <p style="color:black; font-size: 17px;">We depend on the hardware team to build our physical Smart Bins.
+        The hardware and electrical engineers work with Raspberry Pis, sensors, and PCBs to design robust,
+        cost-efficient prototypes capable of collecting waste weight, bin fullness, and other useful metrics.
+        Common tasks include 3D modeling and printing, circuit and PCB design, power draw analytics, and manufacturing bin prototypes.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
 
   </section>
 
- <!-- Symposium Section -->
-  <section class="page-section" id="apply">
-    <div class="container">
-      <h2 class="page-section-heading text-center text-uppercase text-green">Apply to ZotBins</h2>
-      <div class="center">
-        <a href="mailto: zotbinsuci@gmail.com">
+
+  <section class="page-section">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-6">
+
+       <!-- Team Section Heading-->
+
+        <h2 class="page-section-heading text-center text-black " style="margin-left: -90px;">Our Team</h2>
+        <body>
           <img class="flyer" src="img/group_photo_2020.jpg" alt="">
-        </a>
+          <br><p style="color:black; font-size: 17px; margin-left: -90px;">
+            ZotBins is organized by subgroups-- each with a subgroup lead and various subgroup members.
+            Overall, all of the subgroups are led by team leads.
+            Although we are an undergraduate research group and participate in research,
+            we are primarily focused on giving each of our team members technical, project-based working experiences. </p>
+        </body>
+
+        <div class="text-center mt-4">
+        <a href="team.html"><button onclick="myFunction()" class="btn btn-xl btn-outline-light"  style="margin-left: -90px;" id="myBtn">See More</button></a>
+        </div>
       </div>
-    </div>
-  </section>
 
+      <div class="col-lg-6">
+        <div class="right-half-3">
+    <h2 class="page-section-heading text-center text-black" style="margin-left:130px;">News Feed</h2>
+      <div class="history-tl-container">
+        <ul class="tl">
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              20th March 2020<br> 7:00 PM
+            </div>
+            <div class="item-title">Wrote a Paper</div>
+            <div class="item-detail">Some students got together to write a paper.</div>
+          </li>
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              30th May 2020<br> 3:00 PM
+            </div>
+            <div class="item-title">ZotBins Virtual</div>
+            <div class="item-detail">We switched to operate virtually.</div>
+          </li>
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              31st October 2020<br> 9:00 PM
+            </div>
+            <div class="item-title">Spoopy Halloween</div>
+            <div class="item-detail">ZotBins wishes you a Happy Halloween!</div>
+          </li>
 
- <!-- Team Section-->
- <section class="page-section bg-lightgray portfolio" id="team">
-    <div class="container">
-
-      <!-- Team Section Heading-->
-      <h2 class="page-section-heading text-center text-uppercase text-green mb-0">Team Members</h2>
-		<div class="container">
-
-      <!--Project Leads-->
-		<div class="row">
-			<div class="col-sm">
-			  <h2 class="page-section-heading text-center text-green mb-0">-Project Leads-</h2>
-			</div>
-		</div>
-    <div class="row">
-      <div class="col-sm">
-			  <img class = "headshot" src="img/headshots/marissa.jpg">
-			  <ul class = "text-green team" style="list-style-type: none; padding-left:4%;">
-				<li style="padding-left:-1%"><b>Name:</b> Marissa Lafreniere</li>
-				<li><b>Major:</b> Computer Science</li>
-				<li><b>Class:</b> Undergraduate Class of 2022</li>
-			  </ul>
-			</div>
-      <div class="col-sm">
-			  <img  class = "headshot" src="img/headshots/gracechoe.jpg">
-			  <ul class = "text-green team" style="list-style-type: none; padding-left:4%;">
-				<li style="padding-left:-10%"><b>Name:</b> Grace Seung-Mi Choe</li>
-				<li><b>Major:</b> Computer Science</li>
-				<li><b>Class:</b> Undergraduate Class of 2021</li>
-			  </ul>
-			</div>
-      <div class="col-sm">
-			  <img class = "headshot" src="img/headshots/jessechong_pic_compressed.jpg">
-			  <ul class = "text-green team" style="list-style-type: none; padding-left:4%;">
-				<li><b>Name:</b> Jesse Chong</li>
-				<li><b>Major:</b> Computer Science</li>
-				<li><b>Class:</b> Undergraduate Class of 2021</li>
-			  </ul>
-			</div>
-		</div>
-		<!--Web and Mobile-->
-		<div class="row">
-			<div class="col-sm">
-			  <h2 class="page-section-heading text-center text-green mb-0">-Web and Mobile-</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm">
-			  <img class = "headshot" src="img/headshots/marawin_chheang.jpg">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li style="padding-left:13%"><b>Name:</b> Marawin Chheang</li>
-				<li style="padding-left:13%"><b>Major:</b> Software Engineering</li>
-				<li style="padding-left:13%"><b>Class:</b> Undergraduate Class of 2021</li>
-			  </ul>
-			</div>
-
-			<div class="col-sm">
-				<a href="https://www.linkedin.com/in/bhavanipanda">
-					<img class = "headshot" src="img/headshots/bhavani.jpg">
-				</a>
-				<ul class = "text-green team" style="list-style-type:none">
-					<li style="padding-left:13%"><b>Name:</b> Bhavani Panda</li>
-					<li style="padding-left:13%"><b>Major:</b> Computer Science</li>
-					<li style="padding-left:13%"><b>Class:</b> Undergraduate Class of 2021</li>
-				</ul>
-			</div>
-		</div>
-		<!--Waste Recognition-->
-		<div class="row">
-			<div class="col-sm">
-			  <h2 class="page-section-heading text-center text-green mb-0">-Waste Recognition-</h2>
-			</div>
-		</div>
-		<div class="row">
-
-			<div class="col-sm">
-			  <img class = "headshot" src="img/headshots/ted.jpg">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li style="padding-left:13%"><b>Name:</b> Tedi Sr Zadouri</li>
-				<li style="padding-left:13%"><b>Major:</b> Computer Science</li>
-				<li style="padding-left:13%"><b>Class:</b> Undergraduate Class of 2021</li>
-			  </ul>
-			</div>
-      <div class="col-sm">
-        <img class = "headshot" src="img/headshots/alpineTang.jpg">
-        <ul class = "text-green team" style="list-style-type:none">
-        <li style="padding-left:13%"><b>Name:</b>  Alpine Tang</li>
-        <li style="padding-left:13%"><b>Major:</b> Computer Science and Engineering</li>
-        <li style="padding-left:13%"><b>Class:</b> Undergraduate Class of 2022</li>
-      </ul>
-  </div>
-		</div>
-
-		<!--Hardware and Electrical-->
-		<!-- <div class="row">
-			<div class="col-sm">
-			  <h2 class="page-section-heading text-center text-green mb-0">-Hardware and Electrical-</h2>
-			</div>
-		</div> -->
-    <!-- <div class="row">
-			<div class="center">
-		<h3 class ="text-center">To Be Announced</h3>
-  </div>
-</div> -->
-		<!--Embedded Systems-->
-		<div class="row">
-			<div class="col-sm">
-			  <h2 class="page-section-heading text-center text-green mb-0">-Embedded Systems-</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="center">
-			  <h3 class ="text-center">To Be Announced</h3>
-			</div>
-		</div>
-
-    <!--Webmaster-->
-    <div class="row">
-      <div class="col-sm">
-        <h2 class="page-section-heading text-center text-green mb-0">-Webmaster-</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="center">
-        <img class = "headshot" src="img/headshots/palakgajera.jpg">
-        <ul class = "text-green team" style="list-style-type: none; padding-left:0%;">
-        <li><b>Name:</b> Palak Gajera </li>
-        <li><b>Major:</b> Computer Science</li>
-        <li><b>Class:</b> Undergraduate Class of 2021</li>
         </ul>
+      <h5 class = 'text-center text-black'  style="margin-left: -200px;margin-right: -280px;">Check out the most recent ZotBins updates below!</h4>
+      <div class="text-center mt-4" style="margin-left: 110px;">
+        <a href="https://sites.uci.edu/zotbins/"><button onclick="myFunction()" class="btn btn-xl btn-outline-light" id="myBtn">Blog</button></a>
       </div>
     </div>
-
-
-
-
-
-		<!--ADVISORS-->
-		  <div class="row">
-			<div class="col-sm">
-			  <h2 class="page-section-heading text-center text-green mb-0">-Advisors-</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm">
-	                  <img class = "headshot" src="img/headshots/sharad.jpg">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li style="padding-left:15%"><b>Name:</b> Professor Sharad Mehrotra</li>
-			    <li style="padding-left:15%"><b>Department:</b> Donald Bren, School of Information and Computer Sciences</li>
-			  </ul>
-			</div>
-			<div class="col-sm">
-		          <img class = "headshot" src="img/headshots/nalini.jpg">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li style="padding-left:15%"><b>Name:</b>  Professor Nalini Venkatasubramanian</li>
-			    <li style="padding-left:15%"><b>Department:</b> Donald Bren, School of Information and Computer Sciences</li>
-			  </ul>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm">
-		          <img class = "headshot" src="img/headshots/Luyi-Gui.jpg">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li style="padding-left:15%"><b>Name:</b>  Professor Luyi Gui</li>
-			    <li style="padding-left:15%"><b>Department:</b> Paul Merage School of Business</li>
-			  </ul>
-			</div>
-			<div class="col-sm">
- 		          <img class = "headshot" src="img/headshots/anne.jpg">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li style="padding-left:15%"><b>Name:</b>  Anne Brown Kreighoff</li>
-			    <li style="padding-left:15%"><b>Department:</b> Facilities Management</li>
-			  </ul>
-			</div>
-		</div>
-		<!--MENTORS-->
-		<div class="row">
-			<div class="col-sm">
-			  <h2 class="page-section-heading text-center text-green mb-0">-Mentors-</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="center">
-			  <img class = "headshot" src="img/headshots/Primal_Pappachan.jpg">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li style="padding-left:20%"><b>Name:</b> Primal Pappachan</li>
-				<li style="padding-left:20%">PhD Candidate in Computer Science</li>
-			    <li style="padding-left:20%"><b>Department:</b> Donald Bren, School of Information and Computer Sciences</li>
-			  </ul>
-			</div>
-		</div>
-		<!--Project Alumni-->
-		<div class="row">
-			<div class="col-sm">
-			  <h2 class="page-section-heading text-center text-green mb-0">-Project Alumni-</h2>
-			</div>
-		</div>
-    <div class="row">
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Joshua Cao </li>
-				<li><b>Past Affiliation:</b> Co-Founder, Web and Mobile, Waste Recognition, Project Lead</li>
-				<li><b>Major:</b> Computer Science</li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Owen Yang </li>
-				<li><b>Past Affiliation:</b>  Co-Founder, Hardware and Electrical, Systems Design, Project Lead</li>
-				<li><b>Major:</b> Computer Science And Engineering</li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-		</div>
-    <div class="row">
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Anthony Luu </li>
-				<li><b>Past Affiliation:</b> Waste Recognition</li>
-				<li><b>Major:</b> Computer Science</li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Kathy Nguyen </li>
-				<li><b>Past Affiliation:</b> Hardware and Electrical </li>
-				<li><b>Major:</b> Electrical Engineering </li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-		</div>
-    <div class="row">
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Mohammed Haque </li>
-				<li><b>Past Affiliation:</b> Hardware and Electrical </li>
-				<li><b>Major:</b> Computer Engineering </li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Martin Gomez </li>
-				<li><b>Past Affiliation:</b> Hardware and Electrical</li>
-				<li><b>Major:</b> Computer Engineering</li>
-				<li><b>Class:</b> Undergraduate Class of 2022</li>
-			  </ul>
-			</div>
-		</div>
-    <div class="row">
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> David Pham </li>
-				<li><b>Past Affiliation:</b> Systems Design </li>
-				<li><b>Major:</b>Computer Science and Engineering</li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Andy Tran </li>
-				<li><b>Past Affiliation:</b> Hardware and Electrical</li>
-				<li><b>Major:</b> Computer Engineering</li>
-				<li><b>Class:</b> Undergraduate Class of 2022</li>
-			  </ul>
-			</div>
-		</div>
-		<div class="row">
-
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Derek Feng</li>
-				<li><b>Past Affiliation:</b> Co-Founder, System Management, Data Analytics</li>
-				<li><b>Major:</b> Computer Science</li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Marshall Nguyen</li>
-				<li><b>Past Affiliation:</b> Co-Founder, Web Development, Data Analytics</li>
-				<li><b>Major:</b> Computer Science</li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Diego Torres</li>
-				<li><b>Past Affiliation:</b> Hardware and Electrical</li>
-				<li><b>Major:</b> Computer Engineering</li>
-				<li><b>Class:</b> Undergraduate Class of 2019</li>
-			  </ul>
-			</div>
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Danny Tran</li>
-				<li><b>Past Affiliation:</b> Systems Design</li>
-				<li><b>Major:</b> Computer Science and Engineering</li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm">
-			   <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Dr. Roberto Yus</li>
-				<li><b>Past Affiliation:</b> Mentor</li>
-			    	<li><b>Department:</b> Donald Bren, School of Information and Computer Sciences</li>
-			  </ul>
-			</div>
-			<div class="col-sm">
-			  <ul class = "text-green team" style="list-style-type:none">
-				<li><b>Name:</b> Sid Lau</li>
-				<li><b>Past Affiliation:</b> Web and Mobile</li>
-				<li><b>Major:</b> Computer Science and Engineering</li>
-				<li><b>Class:</b> Undergraduate Class of 2020</li>
-			  </ul>
-			</div>
-		</div>
     </div>
-  </section>
     </div>
-  </section>
-
-  <!-- Gallery Section -->
-  <!-- <section class="page-section"  id="gallery">
-    <div class="container">
- -->
-      <!-- Gallery Section Heading -->
-<!--       <h2 class="page-section-heading text-center text-uppercase text-green">Gallery</h2>
- -->
-	  <!--Instagram Gallery -->
-<!-- 	  <div class='embedsocial-instagram' data-ref="32afdf7c2e5ec5da4380d6acadb78db9266f6fe9"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
-x
-
     </div>
-  </section>
- -->
-  <!-- Updates Section -->
-  <section class="page-section mb-0" id="updates">
-    <div class="container">
+  </div>
+</div>
+</section>
 
-      <!-- Updates Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-green">Updates</h2>
 
-      <!-- Updates Section Content -->
-	  <div class = "row center">
-	  <p class = 'lead text-green'>
-		Check out the most recent ZotBins updates below!
-	  </p>
-	  </div>
 
-	  <div class="text-center mt-4">
-		<a href="https://sites.uci.edu/zotbins/"><button onclick="myFunction()" class="btn btn-xl btn-outline-light" id="myBtn">Blog</button></a>
-	  </div>
-    </div>
-
-  </section>
 
   <!-- Partners section -->
-  <section class="page-section bg-lightgray" id="partners">
+  <section class="page-section bg-lightgray" id="about">
     <div class="container">
 
       <!--Partners Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-green mb-0">Partners</h2>
+      <h2 class="page-section-heading text-center text-black mb-0">Our Partners</h2>
 
       <!-- Partners Section Content -->
       <div class="row">
@@ -499,6 +254,7 @@ x
     </div>
   </section>
 
+
   <!-- Footer -->
   <footer class="footer text-center bg-darkgreen">
     <div class="container">
@@ -513,16 +269,16 @@ x
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
-		  <a href="https://github.com/zotbins"><img class = "btn-social" src="img/githero.png" alt=""></a>
-		  <a href= "mailto: zotbinsuci@gmail.com"><img class = "btn-social" src="img/email.png" alt=""></a>
-		  <a href= "https://www.instagram.com/zotbins/"><img class = "btn-social" src="img/instagram.png" alt=""></a>
-      <a href= "https://www.youtube.com/channel/UC0b3gQI-uJxT0_gnSBwXmNA"><img class = "btn-social" src="img/youtube.png" alt=""></a>
+          <a href="https://github.com/zotbins"><i class="fab fa-github fa-3x" style="padding-right:15px;"></i></a>
+          <a href= "mailto: zotbinsuci@gmail.com"><i class="fas fa-envelope fa-3x" style="padding-right:15px;"></i></a>
+          <a href= "https://www.instagram.com/zotbins/"><span class="fab fa-instagram fa-3x" style="padding-right:15px;"></span></a>
+          <a href= "https://www.youtube.com/channel/UC0b3gQI-uJxT0_gnSBwXmNA"><i class="fab fa-youtube fa-3x" style="padding-right:15px;"></i></a>
         </div>
 
         <!-- Footer About Text -->
         <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">About ZotBins</h4>
-          <p class="lead mb-0">A student driven project for better waste management</p>
+          <h4 class="text-uppercase mb-4">Contact Us</h4>
+          <p class="lead mb-0">ZotBinsUCI@gmail.com</p>
         </div>
 
       </div>
