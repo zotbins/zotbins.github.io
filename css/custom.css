@@ -209,7 +209,7 @@ body{
   width: 25%;
   padding: 0 10px;
 }
-p { margin:0; }
+p { margin:0; color:black; font-size: 17px; text-align: justify; }
 /* Remove extra left and right margins, due to padding */
 .team-row {margin: 0 -5px;}
 
@@ -269,8 +269,6 @@ p { margin:0; }
 }
 
 .history-tl-container{
-    font-family: "Roboto",sans-serif;
-  width:50%;
   margin:auto;
   display:block;
   position:relative;
@@ -540,3 +538,23 @@ ul.tl li .timestamp{
     color: #2a4c09;
     background: #e4f577;
   }
+
+
+
+
+
+#landing_page_banner, #our_team_section {
+  background-image: url("../img/landingpage_banner.jpg");
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about_section, #partners_section {
+  background-color: white;
+}
+
+#landing_page_footer p,h4 {
+  text-align: center !important;
+}
