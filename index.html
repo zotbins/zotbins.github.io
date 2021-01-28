@@ -66,7 +66,7 @@
     <header class="masthead bg-white text-white text-center" id="landing_page_banner">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image -->
-            <img class="masthead-avatar img-fluid mb-5" src="img/zotbins-logo-blinky-slow.gif" alt="ZotBins Team Logo">
+            <img id="landing_page_logo" class="masthead-avatar img-fluid mb-5" src="img/zotbins-logo-blinky-slow.gif" alt="ZotBins Team Logo">
         </div>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet" />
         <a href="https://github.com/zotbins"><i class="fa fa-github fa-3x px-2"></i></a>
@@ -90,6 +90,9 @@
                         make a difference for the environment. ZotBins is a smart waste bin system that collects data to
                         help make waste management more efficient and to promote zero waste.
                     </p>
+                    <div class="text-center mt-4">
+                        <a href="team.html"><button onclick="myFunction()" class="btn btn-xl btn-outline-light" id="myBtn">See Team</button></a>
+                    </div>
                 </div>
                 <div class="col-lg-8">
                     <h2 class="page-section-heading text-center text-black">Subgroups</h2>
@@ -150,15 +153,40 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <!-- Team Section Heading-->
-                    <h2 class="page-section-heading text-center text-black">Our Team</h2>
-                    <img class="flyer img-fluid w-100 text-center" src="img/group_photo_2020.jpg" alt="ZotBins Group Photo 2020">
-                    <br>
-                    <p>
-                        ZotBins is organized by subgroups-- each with a subgroup lead and various subgroup members.
-                        Overall, all of the subgroups are led by team leads.
-                        Although we are an undergraduate research group and participate in research,
-                        we are primarily focused on giving each of our team members technical, project-based working experiences. </p>
+<!--                    &lt;!&ndash; Team Section Heading&ndash;&gt;-->
+<!--                    <h2 class="page-section-heading text-center text-black">Our Team</h2>-->
+<!--                    <img class="flyer img-fluid w-100 text-center" src="img/group_photo_2020.jpg" alt="ZotBins Group Photo 2020">-->
+<!--                    <br>-->
+<!--                    <p>-->
+<!--                        ZotBins is organized by subgroups&#45;&#45; each with a subgroup lead and various subgroup members.-->
+<!--                        Overall, all of the subgroups are led by team leads.-->
+<!--                        Although we are an undergraduate research group and participate in research,-->
+<!--                        we are primarily focused on giving each of our team members technical, project-based working experiences. </p>-->
+                        <!--Partners Section Heading -->
+                        <h2 class="page-section-heading text-center text-black mb-0">Our Partners</h2>
+                        <!-- Partners Section Content -->
+                        <div id="parter_section_logos" class="row my-auto d-flex justify-content-center">
+                            <div class="col-sm-6 my-auto">
+                                <a href="https://food.uci.edu/">
+                                    <img class="img-fluid w-100 my-auto" src="img/UCI_DINING.png">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 my-auto">
+                                <a href="https://eswuci.wixsite.com/eswuci">
+                                    <img class="img-fluid w-100" src="img/UCI_ESW.png">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 my-auto">
+                                <a href="https://tippersweb.ics.uci.edu/">
+                                    <img class="img-fluid w-100" src="img/tippers.png">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 my-auto">
+                                <a href="https://sustainability.uci.edu/studentinvolvement/src/">
+                                    <img class="img-fluid w-50" src="img/src.png">
+                                </a>
+                            </div>
+                        </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="right-half-3">
@@ -202,48 +230,18 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="text-center mt-4">
-                        <a href="team.html"><button onclick="myFunction()" class="btn btn-xl btn-outline-light" id="myBtn">See Team</button></a>
+                        <a href="https://sites.uci.edu/zotbins/"><button onclick="myFunction()" class="btn btn-xl btn-outline-light" id="myBtn">View Blog</button></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="right-half-3">
                         <div class="text-center mt-4">
-                            <a href="https://sites.uci.edu/zotbins/"><button onclick="myFunction()" class="btn btn-xl btn-outline-light" id="myBtn">See Blog</button></a>
+                            <a href="history.html"><button onclick="myFunction()" class="btn btn-xl btn-outline-light" id="myBtn">View History</button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-    </section>
-    <!-- Partners section -->
-    <section class="page-section bg-lightgray" id="partners_section">
-        <div class="container">
-            <!--Partners Section Heading -->
-            <h2 class="page-section-heading text-center text-black mb-0">Our Partners</h2>
-            <!-- Partners Section Content -->
-            <div class="row">
-                <div class="col-sm mt-4">
-                    <a href="https://food.uci.edu/">
-                        <img class="img-fluid w-100 my-auto" src="img/UCI_DINING.png">
-                    </a>
-                </div>
-                <div class="col-sm mt-4">
-                    <a href="https://eswuci.wixsite.com/eswuci">
-                        <img class="img-fluid w-100" src="img/UCI_ESW.png">
-                    </a>
-                </div>
-                <div class="col-sm mt-4">
-                    <a href="https://tippersweb.ics.uci.edu/">
-                        <img class="img-fluid w-100" src="img/tippers.png">
-                    </a>
-                </div>
-                <div class="col-sm mt-4">
-                    <a href="https://sustainability.uci.edu/studentinvolvement/src/">
-                        <img class="img-fluid w-50" src="img/src.png">
-                    </a>
-                </div>
-            </div>
         </div>
     </section>
     <!-- Footer -->
@@ -274,7 +272,7 @@
     <!-- Copyright Section -->
     <section class="bg-darkgreen py-4 text-center text-green">
         <div class="container">
-            <small>Copyright &copy; ZotBins 2020</small>
+            <small id="zotbins_copyright_text">Copyright &copy; ZotBins 2017-2021</small>
         </div>
     </section>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->

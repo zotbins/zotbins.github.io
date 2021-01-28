@@ -834,6 +834,10 @@ ul.tl li .item-detail {
         display: inline-block;
         margin-left: 0px;
     }
+
+    #landing_page_logo {
+        width: 30rem;
+    }
 }
 
 @media (max-width: 499.9px) {
@@ -878,11 +882,12 @@ ul.tl li .item-detail {
 
 #landing_page_banner,
 #our_team_section {
-    background-image: url("../img/landingpage_banner.jpg");
+    background-image: url("../img/landingpage_banner_parallax.jpg");
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #about_section,
@@ -893,4 +898,13 @@ ul.tl li .item-detail {
 #landing_page_footer p,
 h4 {
     text-align: center !important;
+}
+
+#parter_section_logos {
+    height: 75%;
+}
+
+#zotbins_copyright_text {
+    color: white;
+    font-weight: 800;
 }
