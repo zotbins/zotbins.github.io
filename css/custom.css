@@ -276,6 +276,10 @@ p {
     padding-bottom: 0px;
 }
 
+.card-container > p {
+    text-align: center !important;
+}
+
 .fa {
     color: black;
 }
