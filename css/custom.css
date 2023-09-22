@@ -738,10 +738,38 @@ ul.tl li .item-detail {
     opacity: 1
 }
 
+#mainNav .navbar-nav {
+  align-items: center;
+}
 
-
+#mainNav .navbar-nav li.nav-button a.nav-link:hover,
 #mainNav .navbar-nav li.nav-item a.nav-link {
     color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-button a.nav-link {
+  color: #1f5236;
+}
+#mainNav .navbar-nav li.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #fff;
+  border: 3px solid #1f5236;
+
+  border-radius: 25px;
+  transition-duration: 0.3s;
+  text-align: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+}
+
+
+#mainNav .navbar-nav li.nav-button:hover {
+  background-color: #1f5236;
+  color: #fff; 
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
