@@ -83,13 +83,13 @@
                 >Team</a
               >
             </li>
-            <li class="nav-item mx-0 mx-lg-1">
+            <!-- <li class="nav-item mx-0 mx-lg-1">
               <a
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                 href="gallery.html"
                 >Gallery</a
               >
-            </li>
+            </li> -->
             <li class="nav-button mx-0 mx-lg-1">
               <a
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
@@ -196,7 +196,12 @@
               </li>
               <li>
                 <a style="color: darkgreen" data-toggle="tab" href="#menu3"
-                  >Hardware and Electrical</a
+                  >Hardware</a
+                >
+              </li>
+              <li>
+                <a style="color: darkgreen" data-toggle="tab" href="#menu4"
+                  >API</a
                 >
               </li>
             </ul>
@@ -220,10 +225,11 @@
                   functionality to help facilities management in cultivating a
                   sustainable campus, while the mobile app seeks to engage users
                   in more environmentally-conscious practices. Members of this
-                  group are comfortable working in the front and back ends, and
-                  have experience with UI/UX design. Common tasks include
-                  designing aesthetically-pleasing user interfaces, web
-                  development, and app development (Android and iOS).
+                  group are comfortable working on building an application
+                  end-to-end, and have experience with UI/UX design. Common
+                  tasks include designing aesthetically-pleasing user
+                  interfaces, web development, and mobile app development
+                  (Android and iOS).
                 </p>
               </div>
               <div id="menu1" class="tab-pane fade">
@@ -239,15 +245,13 @@
                   alt="Waste Recognition Photo"
                 />
                 <p>
-                  The waste recognition team is focused on researching different
-                  opportunities in computationally recognizing waste. Automatic
-                  waste detection has various benefits such as giving proper
-                  waste disposal instructions to students. We are currently
-                  focused on two main projects: classifying waste by image
-                  through deep learning methods and identifying waste products
-                  given their barcode number. This subgroup is the most recently
-                  formed team, so we are looking for motivated individuals who
-                  are willing to build from scratch and become future leaders.
+                  Computer Vision researchers are responsible for developing and
+                  implementing the image recognition algorithms for our waste
+                  image dataset, including image classification and image
+                  localization. The algorithms are used in our ZotBins mobile
+                  app as well as the physical Smart Bins hardware. Our daily
+                  work may include waste image collections, data labeling, data
+                  preprocessing, and algorithms development & implementation.
                 </p>
               </div>
               <div id="menu2" class="tab-pane fade">
@@ -263,16 +267,15 @@
                   alt="Systems Photo"
                 />
                 <p>
-                  The embedded systems team enables the Smart Bin’s sensors and
-                  microcontrollers to work together in order to reliably
-                  collect, manage, and transfer data. Members of this group
-                  generally work on writing software that can handle the flow of
-                  data robustly, safely, and cleanly. Members of this group are
-                  comfortable with general IoT concepts, so are also comfortable
-                  working with making changes to the Smart Bin’s digital
-                  signage. Common tasks include developing and debugging
-                  software targeted for a microcontroller, writing code that
-                  sends data via API calls, and writing API endpoints.
+                  The systems subgroup work on what the engineers dub the
+                  “Zotbins Core” of the physical Smart Bins. Currently they’re
+                  creating an RTOS application on an ESP-32. This application
+                  collects useful metrics such as weight, fullness, and usage.
+                  There’s also a Jetson Nano side project, which deploys Waste
+                  Recognition’s PyTorch model onboard, eliminating latency of
+                  calling the backend. Common tasks include programming
+                  microcontrollers, collaborating with other subgroups (Hardware
+                  and API), and creating diagrams to build our infrastructure.
                 </p>
               </div>
               <div id="menu3" class="tab-pane fade">
@@ -288,13 +291,34 @@
                   alt="Hardware Photo"
                 />
                 <p>
-                  We depend on the hardware team to build our physical Smart
-                  Bins. The hardware and electrical engineers work with
-                  Raspberry Pis, sensors, and PCBs to design robust,
-                  cost-efficient prototypes capable of collecting waste weight,
-                  bin fullness, and other useful metrics. Common tasks include
-                  3D modeling and printing, circuit and PCB design, power draw
-                  analytics, and manufacturing bin prototypes.
+                  The hardware subgroup builds our physical Smart Bins. The
+                  hardware and electrical engineers work with microcontrollers,
+                  sensors, and PCBs to design robust, cost-efficient prototypes
+                  capable of collecting waste weight, bin fullness, and other
+                  useful metrics. Common tasks include circuit and PCB design,
+                  power draw analytics, and manufacturing bin prototypes.
+                </p>
+              </div>
+              <div id="menu4" class="tab-pane fade">
+                <br /><br />
+                <h4 class="text-center">
+                  <i class="fa fa-cloud" fa-lg></i> API
+                  <i class="fa fa-cloud" fa-lg></i>
+                </h4>
+                <br />
+                <img
+                  class="img-fluid mb-5 w-90"
+                  src="img/api1.png"
+                  alt="Api Photo"
+                />
+                <p>
+                  Backend developers are responsible for building and
+                  maintaining APIs to bridge the gap between the low level IoT
+                  edge devices and the high level user applications. This
+                  position works closely with the database, so some of the tasks
+                  include developing necessary API endpoints and researching for
+                  an optimal way to receive and store time-series sensor data
+                  from our Smart Bins.
                 </p>
               </div>
             </div>
