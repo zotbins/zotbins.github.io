@@ -45,7 +45,7 @@ function getResearchAdvisorCard(advisor) {
 }
 
 
-function populateMentors() {
+function populateResearchAdvisors() {
     // Each row will contain 2 members, so go through each sublist of 2 elements
     for (let i = 0; i < RESEARCH_ADVISORS.length; i += 4) {
         $('#research-advisors').append(
@@ -60,4 +60,4 @@ function populateMentors() {
     }
 }
 
-populateMentors();
+populateResearchAdvisors();

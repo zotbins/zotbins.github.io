@@ -364,7 +364,7 @@ const TEAM_MEMBERS = [
     },
 ];
 
-function getAlumniCard(member) {
+function getTeamMemberCard(member) {
   return `
     <div class="col-xl-3 col-lg-6">
         <div class="card">
@@ -407,7 +407,7 @@ function getSortedTeamMembers() {
 }
 
 
-function populateAlumni() {
+function populateTeamMembers() {
     const sortedTeamMembers = getSortedTeamMembers();
 
     // Each row will contain 4 members, so go through each sublist of 4 elements
@@ -415,10 +415,10 @@ function populateAlumni() {
         $('#team-members').append(
             `
             <div class="row">
-                ${getAlumniCard(sortedTeamMembers[i])}
-                ${i + 1 < sortedTeamMembers.length ? getAlumniCard(sortedTeamMembers[i + 1]) : ''}
-                ${i + 2 < sortedTeamMembers.length ? getAlumniCard(sortedTeamMembers[i + 2]) : ''}
-                ${i + 3 < sortedTeamMembers.length ? getAlumniCard(sortedTeamMembers[i + 3]) : ''}
+                ${getTeamMemberCard(sortedTeamMembers[i])}
+                ${i + 1 < sortedTeamMembers.length ? getTeamMemberCard(sortedTeamMembers[i + 1]) : ''}
+                ${i + 2 < sortedTeamMembers.length ? getTeamMemberCard(sortedTeamMembers[i + 2]) : ''}
+                ${i + 3 < sortedTeamMembers.length ? getTeamMemberCard(sortedTeamMembers[i + 3]) : ''}
             </div>
             <br />
             `
@@ -426,4 +426,4 @@ function populateAlumni() {
     }
 }
 
-populateAlumni();
+populateTeamMembers();
