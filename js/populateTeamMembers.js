@@ -327,7 +327,7 @@ const TEAM_MEMBERS = [
     },
     {
         name: 'Evan Servito',
-        headshot: 'img/headshots/EvanServito.jpg',
+        headshot: 'img/headshots/EvanServito.JPG',
         email: 'eservito@uci.edu',
         major: 'Computer Science & Engineering',
         description: 'Web & Mobile',
