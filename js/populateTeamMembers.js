@@ -204,6 +204,9 @@ const TEAM_MEMBERS = [
         email: 'mhaiskaa@uci.edu',
         major: 'Computer Science',
         description: 'Waste Recognition',
+        linkedin: 'https://www.linkedin.com/in/arya-mhaiskar/',
+        spiritTrash: 'Energy Bar Wrapper',
+        graduatingYear: 2026,
         subgroup: 'Waste Recognition',
         position: 'Member',
     },
@@ -324,6 +327,7 @@ const TEAM_MEMBERS = [
     },
     {
         name: 'Evan Servito',
+        headshot: 'img/headshots/EvanServito.jpg',
         email: 'eservito@uci.edu',
         major: 'Computer Science & Engineering',
         description: 'Web & Mobile',
