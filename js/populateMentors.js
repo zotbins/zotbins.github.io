@@ -12,38 +12,38 @@
  */
 
 const MENTORS = [
-	{
-		name: 'Owen Yang',
-		headshot: 'img/headshots/okyang.jpg',
-		email: 'okyang@uci.edu',
-		major: 'CompSci & Engineering',
-		description: 'Co-Founder, Team Lead, Hardware Lead',
-		linkedin: 'https://www.linkedin.com/in/owen-yang-200989138/',
-		graduatingYear: 2020,
-	}
+    {
+        name: 'Owen Yang',
+        headshot: 'img/headshots/okyang.jpg',
+        email: 'okyang@uci.edu',
+        major: 'CompSci & Engineering',
+        description: 'Co-Founder, Team Lead, Hardware Lead',
+        linkedin: 'https://www.linkedin.com/in/owen-yang-200989138/',
+        graduatingYear: 2020,
+    }
 ];
 
 function getMentorCard(mentor) {
   return `
-	<div class="col-lg-6">
-		<div class="card">
-			<img
+    <div class="col-lg-6">
+        <div class="card">
+            <img
                 class="headshot"
                 src="${mentor.headshot}"
                 alt="Avatar"
-			/>
-			<div style="margin: 10px 0; padding-bottom: 1px">
+            />
+            <div style="margin: 10px 0; padding-bottom: 1px">
                 <a href="${mentor.linkedin}"><i class="fab fa-linkedin fa-lg" style="padding-right: 5px"></i></a>
                 <a href="mailto:${mentor.email}"><i class="fas fa-envelope fa-lg"></i></a>
-			</div>
-			<div class="card-container">
+            </div>
+            <div class="card-container">
                 <h4><b>${mentor.name}</b></h4>
                 <p>${mentor.major}</p>
                 <p>Undergraduate Class of ${mentor.graduatingYear}</p>
                 <p>${mentor.description}</p>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
     `;
 }
 

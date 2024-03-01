@@ -9,18 +9,18 @@
  */
 
 const RESEARCH_ADVISORS = [
-	{
-		name: 'Professor Sharad Mehrotra',
-		headshot: 'img/headshots/sharad.jpg',
-		website: 'https://www.ics.uci.edu/~sharad/',
-		school: 'Donald Bren School of Information and Computer Sciences at UC Irvine'
-	},
-	{
-		name: 'Professor Nalini Venkatasubramanian',
-		headshot: 'img/headshots/nalini.jpg',
-		website: 'https://www.ics.uci.edu/~nalini/',
-		school: 'Donald Bren School of Information and Computer Sciences at UC Irvine'
-	}
+    {
+        name: 'Professor Sharad Mehrotra',
+        headshot: 'img/headshots/sharad.jpg',
+        website: 'https://www.ics.uci.edu/~sharad/',
+        school: 'Donald Bren School of Information and Computer Sciences at UC Irvine'
+    },
+    {
+        name: 'Professor Nalini Venkatasubramanian',
+        headshot: 'img/headshots/nalini.jpg',
+        website: 'https://www.ics.uci.edu/~nalini/',
+        school: 'Donald Bren School of Information and Computer Sciences at UC Irvine'
+    }
 ];
 
 function getResearchAdvisorCard(advisor) {
@@ -32,13 +32,13 @@ function getResearchAdvisorCard(advisor) {
                 src="${advisor.headshot}"
                 alt="Avatar"
             />
-			<div style="margin: 10px 0; padding-bottom: 1px">
-				<a href="${advisor.website}"><i class="fas fa-link fa-lg"></i></a>
-			</div>
-			<div class="card-container">
-				<h4><b>${advisor.name}</b></h4>
-				<p>${advisor.school}</p>
-			</div>
+            <div style="margin: 10px 0; padding-bottom: 1px">
+                <a href="${advisor.website}"><i class="fas fa-link fa-lg"></i></a>
+            </div>
+            <div class="card-container">
+                <h4><b>${advisor.name}</b></h4>
+                <p>${advisor.school}</p>
+            </div>
         </div>
     </div>
     `;
