@@ -176,7 +176,7 @@ const TEAM_MEMBERS = [
     },
     {
         name: 'Vatsal Ananthula',
-        headshot: 'img/headshots/Vatsal_Ananthula.png',
+        headshot: 'img/headshots/vatsal_ananthula.png',
         email: 'vananthu@uci.edu',
         major: 'Biological Sciences',
         description: 'Waste Recognition Lead',
