@@ -366,6 +366,18 @@ const TEAM_MEMBERS = [
         subgroup: 'Hardware',
         position: 'Member',
     },
+    {
+        name: 'Naethan Fajarito',
+        headshot: 'img/headshots/NaethanFajarito.jpg',
+        email: 'nfajarit@uci.edu',
+        major: 'Computer Engineering',
+        description: 'Hardware',
+        linkedin: 'https://www.linkedin.com/in/naethan-fajarito-b77968241/',
+        spiritTrash: 'Boxed water',
+        graduatingYear: 2025,
+        subgroup: 'Hardware',
+        position: 'Member',
+    },
 ];
 
 function getTeamMemberCard(member) {
